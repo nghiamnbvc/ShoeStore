@@ -1,0 +1,29 @@
+@model Backend.Models.Color
+@{
+    ViewData["Title"] = "Edit Color";
+}
+
+<h1>Edit Color</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name">Color Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="HexCode" class="control-label">Choose Color</label>
+        <input asp-for="HexCode" type="color" style="width: 20px; height: 20px; border-radius: 50%; 
+                  border: 2px solid #ccc; padding: 0; cursor: pointer;
+                  outline: none; transition: box-shadow 0.3s, border-color 0.3s;"
+            onmouseover="this.style.borderColor='#007bff'; this.style.boxShadow='0 0 5px rgba(0,123,255,0.5)';"
+            onmouseout="this.style.borderColor='#ccc'; this.style.boxShadow='none';" />
+        <span asp-validation-for="HexCode" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Save</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+</form>

@@ -1,0 +1,521 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Backend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Backend.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\assets\\img\\generative-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generative-image.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\074a5e79-e95e-4bdf-ba38-4dbd5728c1e5_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\074a5e79-e95e-4bdf-ba38-4dbd5728c1e5_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\0992faad-509f-4f4a-9ed1-0a764cc42fb6_shoe5.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\0992faad-509f-4f4a-9ed1-0a764cc42fb6_shoe5.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\0e9766f8-40fa-4269-a62a-533e2f59f474_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\0e9766f8-40fa-4269-a62a-533e2f59f474_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\1554d986-3fde-407c-b4df-ae7d01682d2f_shoe7.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\1554d986-3fde-407c-b4df-ae7d01682d2f_shoe7.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\159c9caf-0641-4a48-93c2-0acc74ad57eb_shoe5.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\159c9caf-0641-4a48-93c2-0acc74ad57eb_shoe5.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\159ed62c-1d07-49ee-ab07-a8651078d7a9_shoe4.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\159ed62c-1d07-49ee-ab07-a8651078d7a9_shoe4.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\171f1e7d-5a35-4e07-adfa-1c01a72f0eaf_A11417_25Q1_Golf_Dasher_Blizzard_Deep_Navy_Natural_White_PDP_LEFT-2000x2000_111dc92f-8acf-404b-89fd-.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\171f1e7d-5a35-4e07-adfa-1c01a72f0eaf_A11417_25Q1_Golf_Dasher_Blizzard_Deep_Navy_Natural_White_PDP_LEFT-2000x2000_111dc92f-8acf-404b-89fd-.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\19448ec8-b35b-4660-b3d8-e443de370b0e_shoe10.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\19448ec8-b35b-4660-b3d8-e443de370b0e_shoe10.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\19be7295-58fc-43b1-95a5-8990c623ca7f_shoe1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\19be7295-58fc-43b1-95a5-8990c623ca7f_shoe1.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\270b982f-8f72-4032-a6df-adb85d0ae164_shoe14.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\270b982f-8f72-4032-a6df-adb85d0ae164_shoe14.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\2fa98422-0298-4185-bb48-c143ab632f4f_shoe1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\2fa98422-0298-4185-bb48-c143ab632f4f_shoe1.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\3335f87e-3d67-430b-b3a2-bd07b13263e5_shoe4.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\3335f87e-3d67-430b-b3a2-bd07b13263e5_shoe4.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\3347694d-3385-44a9-b958-49420cd2384b_shoe15.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\3347694d-3385-44a9-b958-49420cd2384b_shoe15.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\406c8224-c76c-48f0-aee1-98bdb0766f91_shoe8.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\406c8224-c76c-48f0-aee1-98bdb0766f91_shoe8.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\44cf7bfb-75ad-4244-b403-f078bd60d134_shoe11.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\44cf7bfb-75ad-4244-b403-f078bd60d134_shoe11.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\4a0ab895-07f5-4587-a9bb-b98eff5e5146_shoe4.avif",
+      "PackagePath": "staticwebassets\\uploads\\products\\4a0ab895-07f5-4587-a9bb-b98eff5e5146_shoe4.avif"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\4a40cfde-5d0b-47ad-9c17-e1bb30725d1c_shoe17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\4a40cfde-5d0b-47ad-9c17-e1bb30725d1c_shoe17.jpg"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\4e6b5ce4-8280-42fb-98e9-20058557ab9c_shoe17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\4e6b5ce4-8280-42fb-98e9-20058557ab9c_shoe17.jpg"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\4f44f9a4-8dea-4ae3-90ed-ccf69005ca2e_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\4f44f9a4-8dea-4ae3-90ed-ccf69005ca2e_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\5e4fd9c5-85bc-4e4b-9284-ced5ddb6d9c8_shoe13.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\5e4fd9c5-85bc-4e4b-9284-ced5ddb6d9c8_shoe13.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\62a1a11b-ff30-477f-8f3b-cb798877dcc7_shoe8.avif",
+      "PackagePath": "staticwebassets\\uploads\\products\\62a1a11b-ff30-477f-8f3b-cb798877dcc7_shoe8.avif"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\6758cb58-cd6b-4839-b567-b9007d473e60_shoe1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\6758cb58-cd6b-4839-b567-b9007d473e60_shoe1.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\6d4f776a-f6a8-4124-a729-9549c7d7f9eb_shoe9.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\6d4f776a-f6a8-4124-a729-9549c7d7f9eb_shoe9.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\715c25db-38b3-4570-aaf7-0445664a7808_shoe6.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\715c25db-38b3-4570-aaf7-0445664a7808_shoe6.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\72117c0c-f182-49f3-8c93-1d6186bbf3f5_shoe9.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\72117c0c-f182-49f3-8c93-1d6186bbf3f5_shoe9.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\75bf7261-760d-496d-ac82-fcd8cccf14e0_shoe1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\75bf7261-760d-496d-ac82-fcd8cccf14e0_shoe1.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\7eacb9ac-39e1-4877-b75a-af8786a3be6c_nike16.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\7eacb9ac-39e1-4877-b75a-af8786a3be6c_nike16.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\7fcc9375-3670-410d-8dae-6d3b3eab8998_shoe17 (1).png",
+      "PackagePath": "staticwebassets\\uploads\\products\\7fcc9375-3670-410d-8dae-6d3b3eab8998_shoe17 (1).png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\906b6958-a2e3-44c2-8c82-92ebe8617190_shoe12.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\906b6958-a2e3-44c2-8c82-92ebe8617190_shoe12.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\9a66e08d-f7be-48e2-8f43-3f91c778b5a0_nike16.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\9a66e08d-f7be-48e2-8f43-3f91c778b5a0_nike16.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\a5cc246d-4f05-4d65-b9ff-fc4aec550158_shoe16.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\a5cc246d-4f05-4d65-b9ff-fc4aec550158_shoe16.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\aebc45bf-d0bf-422e-a97d-b1ee8577b18c_A11778_25Q3_Trail_Runner_SWT_Natural_Black_Dark_Jungle_Natural_Black_Sole_PDP_LEFT-2000x2000.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\aebc45bf-d0bf-422e-a97d-b1ee8577b18c_A11778_25Q3_Trail_Runner_SWT_Natural_Black_Dark_Jungle_Natural_Black_Sole_PDP_LEFT-2000x2000.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\b48005e9-b398-4508-b9ed-3ad3c1308833_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\b48005e9-b398-4508-b9ed-3ad3c1308833_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\c9d25f9e-363b-407a-988b-542bb6982c4c_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\c9d25f9e-363b-407a-988b-542bb6982c4c_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\cbe69360-7ec1-4259-ae9f-1332a8eb8bb0_shoe6.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\cbe69360-7ec1-4259-ae9f-1332a8eb8bb0_shoe6.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\cccce30a-701a-4e27-a762-f62f87a4122e_shoe7.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\cccce30a-701a-4e27-a762-f62f87a4122e_shoe7.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\d30f4a6f-e94c-45e2-b625-991a66cfdb3b_shoe8.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\d30f4a6f-e94c-45e2-b625-991a66cfdb3b_shoe8.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\d3fda7f9-fefd-48dd-9b76-019130af7d57_nike16.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\d3fda7f9-fefd-48dd-9b76-019130af7d57_nike16.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\e391116d-6230-43f6-9be6-170ad998e43e_nike17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\e391116d-6230-43f6-9be6-170ad998e43e_nike17.jpg"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\e6882904-d7e2-4191-8b94-35adb53b6e70_shoe1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\e6882904-d7e2-4191-8b94-35adb53b6e70_shoe1.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\e7bab63f-dc86-4021-bd74-755c22b2aa7a_big-shoe2.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\e7bab63f-dc86-4021-bd74-755c22b2aa7a_big-shoe2.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\ed788deb-f6a0-465e-a624-e2628a909945_nike17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\ed788deb-f6a0-465e-a624-e2628a909945_nike17.jpg"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\f5a5aa3f-158a-4e77-b713-d04adc51547f_nike16.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\f5a5aa3f-158a-4e77-b713-d04adc51547f_nike16.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\f90e0e65-afb7-4aa4-af6c-3275ff6190a0_shoe16.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\f90e0e65-afb7-4aa4-af6c-3275ff6190a0_shoe16.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\products\\f9e317b4-d1ee-4fe3-bfbb-9f3f2535ab1e_shoe1.avif",
+      "PackagePath": "staticwebassets\\uploads\\products\\f9e317b4-d1ee-4fe3-bfbb-9f3f2535ab1e_shoe1.avif"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\10882df8-fc47-4e0d-a047-1bd9067dc880_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\10882df8-fc47-4e0d-a047-1bd9067dc880_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\38f5ceb7-c4a1-4a2c-bec4-6070e78e98a1_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\38f5ceb7-c4a1-4a2c-bec4-6070e78e98a1_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\3a8e6d08-9455-4133-bd24-85640c0d659e_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\3a8e6d08-9455-4133-bd24-85640c0d659e_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\6a1a486d-43f9-48bb-86e7-b52b7c080b6c_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\6a1a486d-43f9-48bb-86e7-b52b7c080b6c_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\a1c3495f-c4ab-436d-9554-a469d48dc235_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\a1c3495f-c4ab-436d-9554-a469d48dc235_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\b025ef50-dbf1-48e0-be08-a74546d9af2c_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\b025ef50-dbf1-48e0-be08-a74546d9af2c_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\b1507f0a-636a-4440-b6ad-3e239298d906_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\b1507f0a-636a-4440-b6ad-3e239298d906_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\d6f6ec3a-4e8b-41ba-8aae-64eb08b8c555_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\d6f6ec3a-4e8b-41ba-8aae-64eb08b8c555_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\d7ead30a-5879-4f36-b11f-0cf7f18bcb99_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\d7ead30a-5879-4f36-b11f-0cf7f18bcb99_shoe17.png"
+    },
+    {
+      "Id": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\wwwroot\\uploads\\variants\\e6f9a046-cd6e-40de-b672-969adb9e463a_shoe17.png",
+      "PackagePath": "staticwebassets\\uploads\\variants\\e6f9a046-cd6e-40de-b672-969adb9e463a_shoe17.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Backend.props",
+      "PackagePath": "build\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Backend.props",
+      "PackagePath": "buildMultiTargeting\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Backend.props",
+      "PackagePath": "buildTransitive\\Backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

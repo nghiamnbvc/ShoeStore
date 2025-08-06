@@ -1,0 +1,59 @@
+@model IEnumerable<Backend.Models.ProductVariant>
+@{
+    ViewData["Title"] = "Product Variants";
+    var productId = ViewBag.ProductId;
+}
+
+<h1>Product Variants List</h1>
+
+<a asp-action="Create" asp-route-productId="@productId" class="btn btn-success mb-3">Add new variants </a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Color</th>
+            <th>Size</th>
+            <th>Quantity</th>
+            <th>Image</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var variant in Model)
+        {
+            <tr>
+                <td>@variant.Color?.Name</td>
+                <td>@variant.Size?.Name</td>
+                <td>@variant.Quantity</td>
+
+                <td class="text-center align-middle">
+                    @{
+                        var variantImage = variant.ProductImages?.FirstOrDefault(i => i.IsMain != true)
+                        ?? variant.ProductImages?.FirstOrDefault();
+                    }
+
+                    @if (variantImage != null)
+                    {
+                        <a asp-controller="ProductImage" asp-action="CreateForVariant" asp-route-productVariantId="@variant.Id"
+                            asp-route-productId="@variant.ProductId">
+                            <img src="@variantImage.ImageUrl" alt="Image" width="32" height="32" style="object-fit: cover;" />
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="ProductImage" asp-action="CreateForVariant" asp-route-productVariantId="@variant.Id"
+                            asp-route-productId="@variant.ProductId">
+                            <img src="/assets/img/generative-image.png" alt="icon" width="32" height="32" />
+                        </a>
+                    }
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@variant.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@variant.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

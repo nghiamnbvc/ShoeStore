@@ -1,0 +1,38 @@
+@model IEnumerable<Backend.Models.Role>
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<h2 class="mt-4">Roles</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">+ Add Role</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model)
+        {
+            <tr>
+                <td>@role.Id</td>
+                <td>@role.Name</td>
+                <td>
+                    @if (role.Name != "Admin" && role.Name != "Customer")
+                    {
+                        <a asp-action="Edit" asp-route-id="@role.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@role.Id" class="btn btn-sm btn-danger">Delete</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Không thể sửa / xóa</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

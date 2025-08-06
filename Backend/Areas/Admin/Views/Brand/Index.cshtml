@@ -1,0 +1,61 @@
+@model IEnumerable<Backend.Models.Brand>
+
+@{
+    ViewData["Title"] = "Brand List";
+    int index = 1;
+}
+
+<h1 class="mt-4">Brand List</h1>
+
+
+<!-- Add Brand Button -->
+<div class="mb-3">
+    <a class="btn btn-success" asp-area="Admin" asp-controller="Brand" asp-action="Create">
+        <i class="fas fa-plus"></i> Add Brand
+    </a>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        Brands
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Brand Name</th>
+                    <th>Logo</th>
+                    <th>Total Products</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@index</td>
+                        <td>@item.Name</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.Logo))
+                            {
+                                <img src="@item.Logo" alt="Logo" width="80" />
+                            }
+                            else
+                            {
+                                <span>No logo</span>
+                            }
+                        </td>
+                        <td>@item.Products?.Count()</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                    index++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

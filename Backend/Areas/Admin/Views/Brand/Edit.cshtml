@@ -1,0 +1,29 @@
+@model Backend.Models.Brand
+
+@{
+    ViewData["Title"] = "Edit Brand";
+}
+
+<h1 class="mt-4">Edit Brand</h1>
+<hr />
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group mb-3">
+        <input type="hidden" asp-for="Id" />
+
+        <label asp-for="Name" class="control-label">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Logo" class="control-label">Logo URL</label>
+        <input asp-for="Logo" class="form-control" />
+        <span asp-validation-for="Logo" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>

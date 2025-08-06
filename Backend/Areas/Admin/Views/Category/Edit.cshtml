@@ -1,0 +1,30 @@
+@model Backend.Models.Category
+
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<h1 class="mt-4">Edit Category</h1>
+<hr />
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group mb-3">
+        <input type="hidden" asp-for="Id" />
+
+        <label asp-for="Name" class="control-label">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <input type="hidden" asp-for="Id" />
+
+        <label asp-for="Description" class="control-label">Description</label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>

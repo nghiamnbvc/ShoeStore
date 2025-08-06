@@ -1,0 +1,95 @@
+@model IEnumerable<Backend.Models.Product>
+
+@{
+    ViewData["Title"] = "Products List";
+    int index = 1;
+}
+<h1 class="mt-4">Products List</h1>
+
+<!-- Nút thêm sản phẩm -->
+<div class="mb-3">
+    <a class="btn btn-success" asp-area="Admin" asp-controller="Product" asp-action="Create">
+        <i class="fas fa-plus"></i> Add Product
+    </a>
+
+</div>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        Products
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Gender</th>
+                    <th>Active</th>
+                    <th>Discount Percent</th>
+                    <th>Price After Discount</th>
+                    <th>Created Date</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@index</td>
+                        <td>@item.Name</td>
+                        <td>@item.Price.ToString("N0") VND</td>
+                        <td>@item.Category?.Name</td>
+                        <td>@item.Gender</td>
+                        <td>@item.IsActive</td>
+                        <td>@(item.DiscountPercent > 0 ? $"{item.DiscountPercent}%" : "No discount")</td>
+                        <td>
+                            @{
+                                decimal priceAfterDiscount = item.DiscountPercent > 0
+                                ? item.Price * (1 - (decimal)item.DiscountPercent / 100m)
+                                : item.Price;
+                            }
+                            @priceAfterDiscount.ToString("N0") VND
+                        </td>
+
+                        <td>@item.CreatedDate</td>
+                        <td class="text-center align-middle">
+                            @{
+
+                                var mainImage = item.ProductImages?.FirstOrDefault(i => i.IsMain == true)
+                                ?? item.ProductImages?.FirstOrDefault();
+                            }
+
+                            @if (mainImage != null)
+                            {
+                                <a asp-controller="ProductImage" asp-action="CreateForProduct" asp-route-productId="@item.Id">
+                                    <img src="@mainImage.ImageUrl" alt="Image" width="32" height="32"
+                                        style="object-fit: cover;" /></a>
+                            }
+                            else
+                            {
+                                <a asp-controller="ProductImage" asp-action="CreateForProduct" asp-route-productId="@item.Id">
+                                    <img src="/assets/img/generative-image.png" alt="icon" width="32" height="32" />
+                                </a>
+
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                            <a asp-controller="ProductVariant" asp-action="Index" asp-route-productId="@item.Id"
+                                class="btn btn-sm btn-warning">
+                                Add Variant
+                            </a>
+                        </td>
+                    </tr>
+                    index++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+@model Backend.Models.Brand
+
+@{
+    ViewData["Title"] = "Create Brand";
+}
+
+<h1 class="mt-4">Create Brand</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item">
+        <a asp-area="Admin" asp-controller="Brand" asp-action="Index">Brand Management</a>
+    </li>
+    <li class="breadcrumb-item active">Create</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Brand Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Logo" class="form-label">Logo URL</label>
+                <input asp-for="Logo" class="form-control" />
+                <span asp-validation-for="Logo" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

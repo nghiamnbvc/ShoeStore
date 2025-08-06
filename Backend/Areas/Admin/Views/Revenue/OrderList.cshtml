@@ -1,0 +1,53 @@
+@model IEnumerable<Backend.Models.Order>
+@{
+    ViewData["Title"] = "Danh sách đơn hàng";
+}
+
+<h2>Danh sách đơn hàng</h2>
+
+<form asp-action="OrdersList" method="get" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <label for="startDate" class="form-label">Từ ngày:</label>
+        <input type="date" name="startDate" class="form-control" value="@ViewBag.StartDate" />
+    </div>
+    <div class="col-md-3">
+        <label for="endDate" class="form-label">Đến ngày:</label>
+        <input type="date" name="endDate" class="form-control" value="@ViewBag.EndDate" />
+    </div>
+    <div class="col-md-2 align-self-end">
+        <button type="submit" class="btn btn-primary">Lọc</button>
+    </div>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Tài khoản</th>
+                <th>Tổng tiền</th>
+                <th>Ngày tạo</th>
+                <th>Số lượng sản phẩm</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.Account?.FullName ?? "Khách"</td>
+                    <td>@String.Format("{0:N0}₫", order.TotalAmount)</td>
+                    <td>@order.OrderDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@(order.OrderDetails != null ? order.OrderDetails.Sum(x => x.Quantity) : 0)</td>
+                    <td>@order.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">Không có đơn hàng nào trong khoảng thời gian đã chọn.</div>
+}

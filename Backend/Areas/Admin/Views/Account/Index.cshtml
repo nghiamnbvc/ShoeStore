@@ -1,0 +1,48 @@
+@model IEnumerable<Backend.Models.Account>
+
+@{
+    ViewData["Title"] = "Accounts";
+}
+
+<h2 class="mt-4">Accounts</h2>
+
+<a class="btn btn-success mb-3" asp-action="Create">+ Add Account</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Role</th>
+            <th>Active</th>
+            <th>Created Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var acc in Model)
+        {
+            <tr>
+                <td>@acc.Id</td>
+                <td>@acc.FullName</td>
+                <td>@acc.UserName</td>
+                <td>@acc.Email</td>
+                <td>@acc.Phone</td>
+                <td>@acc.Role?.Name</td>
+                <td>@(acc.IsActive ? "Yes" : "No")</td>
+                <td>@acc.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @if (acc.Role?.Name != "Admin")
+                    {
+                        <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@acc.Id">Edit</a>
+                        <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@acc.Id">Delete</a>
+                    }
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

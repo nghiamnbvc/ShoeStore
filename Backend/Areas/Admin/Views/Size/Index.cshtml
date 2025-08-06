@@ -1,0 +1,33 @@
+@model IEnumerable<Backend.Models.Size>
+@{
+    ViewData["Title"] = "Size List";
+    int index = 1;
+}
+
+<h1 class="mt-4">Sizes List </h1>
+
+<a asp-action="Create" class="btn btn-success mb-3"><i class="fas fa-plus"></i> Add Size</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Size</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var size in Model)
+        {
+            <tr>
+                <td>@index</td>
+                <td>@size.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@size.Id" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@size.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+            index++;
+        }
+    </tbody>
+</table>

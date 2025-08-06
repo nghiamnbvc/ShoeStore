@@ -1,0 +1,21 @@
+@model Backend.Models.ProductImage
+
+@{
+    ViewData["Title"] = "Add Main Product Image";
+}
+
+<h2>Add Main Product Image</h2>
+
+<form asp-action="CreateForProduct" enctype="multipart/form-data" method="post">
+    <input type="hidden" asp-for="ProductId" />
+
+    <div class="form-group">
+        <label asp-for="ImageFile" class="control-label"></label>
+        <input asp-for="ImageFile" class="form-control" type="file" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+<a asp-controller="Product" asp-action="Index" class="btn btn-secondary mt-2">Back to Product List</a>

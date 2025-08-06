@@ -1,0 +1,146 @@
+@model IEnumerable<Backend.Models.Order>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Doanh thu";
+
+    var DonHuy = ViewBag.DonHuy;
+    var TongDonHang = ViewBag.TongDonHang;
+    var TongTien = ViewBag.TongTien;
+    var Hoanthanh = ViewBag.Hoanthanh;
+
+    DateTime? fromDate = Context.Request.Query["fromDate"].ToString() != "" ?
+    DateTime.Parse(Context.Request.Query["fromDate"]) : (DateTime?)null;
+    DateTime? toDate = Context.Request.Query["toDate"].ToString() != "" ? DateTime.Parse(Context.Request.Query["toDate"]) :
+    (DateTime?)null;
+}
+
+<h2>Doanh thu</h2>
+
+<!-- Thống kê tổng quan -->
+<div class="row mb-4">
+    <div class="col-md-3"><strong>Tổng đơn hàng:</strong> @TongDonHang</div>
+    <div class="col-md-3"><strong>Đơn hoàn thành:</strong> @Hoanthanh</div>
+    <div class="col-md-3"><strong>Đơn hủy:</strong> @DonHuy</div>
+    <div class="col-md-3"><strong>Tổng doanh thu:</strong> @string.Format("{0:N0}", TongTien ?? 0) VNĐ</div>
+</div>
+
+<!-- Lọc theo ngày -->
+<form method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-3">
+            <label>Từ ngày:</label>
+            <input type="date" name="fromDate" class="form-control" value="@fromDate?.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="col-md-3">
+            <label>Đến ngày:</label>
+            <input type="date" name="toDate" class="form-control" value="@toDate?.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="col-md-3 align-self-end">
+            <button type="submit" class="btn btn-primary">Lọc</button>
+        </div>
+    </div>
+</form>
+
+<!-- Bảng đơn hàng -->
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Khách hàng</th>
+                <th>Email</th>
+                <th>SĐT</th>
+                <th>Tổng tiền</th>
+                <th>Ngày đặt</th>
+                <th>Địa chỉ</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Account?.FullName</td>
+                    <td>@item.Account?.Email</td>
+                    <td>@item.Account?.Phone</td>
+                    <td>@item.TotalAmount.ToString("N0")</td>
+                    <td>@item.OrderDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Account?.Address</td>
+                    <td>@item.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="ExportExcel" class="btn btn-success mb-3">
+        <i class="fas fa-file-excel"></i> Xuất Excel
+    </a>
+}
+else
+{
+    <div class="alert alert-info">
+        Chưa có đơn hàng nào được tạo trong khoảng thời gian này.
+    </div>
+}
+
+<!-- Biểu đồ doanh thu -->
+@if (ViewBag.ChartLabels != null && ((List<string>)ViewBag.ChartLabels).Count > 0)
+{
+    <h4 class="mt-5">Biểu đồ doanh thu theo ngày</h4>
+    <canvas id="revenueChart" width="1000" height="400"></canvas>
+}
+else
+{
+    <div class="alert alert-warning mt-4">
+        Không có dữ liệu để hiển thị biểu đồ.
+    </div>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const labels = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.ChartLabels));
+        const data = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.ChartData));
+
+        if (labels.length > 0 && data.length > 0) {
+            const ctx = document.getElementById('revenueChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Doanh thu (VNĐ)',
+                        data: data,
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Biểu đồ thống kê doanh thu theo ngày'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'VNĐ'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Ngày'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+}
