@@ -19,4 +19,19 @@
     <button type="submit" class="btn btn-primary">Upload</button>
 </form>
 
-<a asp-controller="ProductVariant" asp-action="Index" asp-route-productId="@Model.ProductId" class="btn btn-secondary mt-2">Back to Variant List</a>
+@if (!string.IsNullOrEmpty(Model?.ImageUrl))
+{
+
+    <div class="mt-3">
+        <h4>Current Image</h4>
+        <img src="@Url.Content(Model.ImageUrl)" alt="Product Image" style="max-width:200px; height:auto;" />
+
+        <form asp-action="Delete" method="post" class="mt-2">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger">Delete Image</button>
+        </form>
+    </div>
+}
+
+<a asp-controller="ProductVariant" asp-action="Index" asp-route-productId="@Model.ProductId"
+    class="btn btn-secondary mt-2">Back to Variant List</a>

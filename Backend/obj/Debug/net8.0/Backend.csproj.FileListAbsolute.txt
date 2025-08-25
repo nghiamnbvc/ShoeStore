@@ -344,3 +344,4 @@ D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend\bin\Debug\net8.0\ExcelN
 D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend\bin\Debug\net8.0\RBush.dll
 D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend\bin\Debug\net8.0\SixLabors.Fonts.dll
 D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend\obj\Debug\net8.0\Backend.sourcelink.json

@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Backend.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,8 +22,15 @@ namespace Backend.Controllers
 
 
         [HttpGet]
-        public IActionResult CreateForProduct(int productId)
+        public async Task<IActionResult> CreateForProduct(int productId)
         {
+            var existingImage = await _context.ProductImages.FirstOrDefaultAsync(p => p.ProductId == productId && p.IsMain == true);
+
+            if (existingImage != null)
+            {
+                return View("CreateForProduct", existingImage);
+            }
+
             var productImage = new ProductImage
             {
                 ProductId = productId,
@@ -33,8 +41,15 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
-        public IActionResult CreateForVariant(int productId, int productVariantId)
+        public async Task<IActionResult> CreateForVariant(int productId, int productVariantId)
         {
+            var existingImage = await _context.ProductImages.FirstOrDefaultAsync(p => p.ProductId == productId && p.ProductVariantId == productVariantId);
+
+            if (existingImage != null)
+            {
+                return View("CreateForProduct", existingImage);
+            }
+
             var productImage = new ProductImage
             {
                 ProductId = productId,
@@ -119,7 +134,7 @@ namespace Backend.Controllers
             {
                 _context.ProductImages.Add(productImage);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "ProductVariant", new { id = productImage.ProductVariantId });
+                return RedirectToAction("Index", "ProductVariant", new { productId = productImage.ProductId });
             }
 
             return View("Create", productImage);
@@ -147,7 +162,7 @@ namespace Backend.Controllers
                 // Điều hướng linh hoạt
                 if (image.ProductVariantId != null)
                 {
-                    return RedirectToAction("Details", "ProductVariant", new { id = image.ProductVariantId });
+                    return RedirectToAction("Index", "ProductVariant", new { productId = image.ProductId });
                 }
 
                 return RedirectToAction("Index", "Product", new { id = image.ProductId });
