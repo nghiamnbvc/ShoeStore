@@ -17,203 +17,203 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Backend
 build_property.RootNamespace = Backend
-build_property.ProjectDir = D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\Backend\
+build_property.ProjectDir = D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\Backend
+build_property.MSBuildProjectDirectory = D:\Nam3-HK3\LapTrinhWeb-NC_LT\ShoesStoreMananger\backend
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Account/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Account/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Account/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Account/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Account/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Auth/Login.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Brand/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Brand/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Brand/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Brand/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Brand/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Brand/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Brand/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Brand/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Category/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Category/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Category/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Category/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Color/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Color/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Color/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Color/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Color/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Color/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Color/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Color/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29sb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Order/Details.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Order/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/ProductImage/CreateForProduct.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/ProductImage/CreateForProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEltYWdlXENyZWF0ZUZvclByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/ProductImage/CreateForVariant.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/ProductImage/CreateForVariant.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEltYWdlXENyZWF0ZUZvclZhcmlhbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/ProductVariant/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/ProductVariant/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFZhcmlhbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/ProductVariant/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/ProductVariant/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFZhcmlhbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/ProductVariant/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/ProductVariant/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFZhcmlhbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/ProductVariant/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/ProductVariant/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFZhcmlhbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Product/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Product/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Product/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Product/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Revenue/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Revenue/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV2ZW51ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Revenue/OrderList.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Revenue/OrderList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV2ZW51ZVxPcmRlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Role/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Role/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Role/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Role/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Role/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Role/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Shared/_Notification.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Size/Create.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Size/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l6ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Size/Delete.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Size/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l6ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Size/Edit.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Size/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l6ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/Size/Index.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/Size/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l6ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Views/Shared/Error.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Views/_ViewImports.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Views/_ViewStart.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/Backend/Views/Shared/_Layout.cshtml]
+[D:/Nam3-HK3/LapTrinhWeb-NC_LT/ShoesStoreMananger/backend/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d59tb7l7w9

@@ -1,4 +1,5 @@
 using Backend.Models;
+using Backend.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -36,28 +37,42 @@ namespace Backend.Controllers
             ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name");
             ViewBag.ProductId = productId;
 
-            var variant = new ProductVariant { ProductId = productId };
-            return View(variant);
+            var vm = new CreateProductVariantViewModel
+            {
+                ProductId = productId
+            };
+
+            return View(vm);
         }
 
         // POST: Admin/ProductVariant/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ProductVariant variant)
+        public async Task<IActionResult> Create(CreateProductVariantViewModel vm)
         {
             if (ModelState.IsValid)
             {
+                // Map từ ViewModel sang Entity
+                var variant = new ProductVariant
+                {
+                    ProductId = vm.ProductId,
+                    ColorId = vm.ColorId,
+                    SizeId = vm.SizeId,
+                    Quantity = vm.Quantity
+                };
+
                 _context.ProductVariants.Add(variant);
                 await _context.SaveChangesAsync();
                 TempData["success"] = "Product variants create successfully";
                 return RedirectToAction("Index", new { productId = variant.ProductId });
             }
 
-            ViewBag.ColorId = new SelectList(_context.Colors, "Id", "Name", variant.ColorId);
-            ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name", variant.SizeId);
-            ViewBag.ProductId = variant.ProductId;
 
-            return View(variant);
+            ViewBag.ColorId = new SelectList(_context.Colors, "Id", "Name", vm.ColorId);
+            ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name", vm.SizeId);
+            ViewBag.ProductId = vm.ProductId;
+
+            return View(vm);
         }
 
         public async Task<IActionResult> Edit(int id)
@@ -67,21 +82,38 @@ namespace Backend.Controllers
 
             if (variant == null) return NotFound();
 
-            ViewBag.ColorId = new SelectList(_context.Colors, "Id", "Name", variant.ColorId);
-            ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name", variant.SizeId);
-            ViewBag.ProductId = variant.ProductId;
+            var vm = new EditProductVariantViewModel
+            {
+                Id = variant.Id,
+                ProductId = variant.ProductId,
+                ColorId = variant.ColorId,
+                SizeId = variant.SizeId,
+                Quantity = variant.Quantity,
+            };
 
-            return View(variant);
+            ViewBag.ColorId = new SelectList(_context.Colors, "Id", "Name", vm.ColorId);
+            ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name", vm.SizeId);
+            ViewBag.ProductId = vm.ProductId;
+
+            return View(vm);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, ProductVariant variant)
+        public async Task<IActionResult> Edit(int id, EditProductVariantViewModel vm)
         {
-            if (id != variant.Id)
+            if (id != vm.Id)
                 return NotFound();
             if (ModelState.IsValid)
             {
+                var variant = await _context.ProductVariants.FindAsync(id);
+                if (variant == null) return NotFound();
+
+                // Map dữ liệu từ ViewModel sang Entity
+                variant.ColorId = vm.ColorId;
+                variant.SizeId = vm.SizeId;
+                variant.Quantity = vm.Quantity;
+
                 try
                 {
                     _context.Update(variant);
@@ -98,11 +130,11 @@ namespace Backend.Controllers
                 }
             }
 
-            ViewBag.ColorId = new SelectList(_context.Colors, "Id", "Name", variant.ColorId);
-            ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name", variant.SizeId);
-            ViewBag.ProductId = variant.ProductId;
+            ViewBag.ColorId = new SelectList(_context.Colors, "Id", "Name", vm.ColorId);
+            ViewBag.SizeId = new SelectList(_context.Sizes, "Id", "Name", vm.SizeId);
+            ViewBag.ProductId = vm.ProductId;
 
-            return View(variant);
+            return View(vm);
         }
 
         // GET: Admin/ProductVariant/Delete/5

@@ -1,4 +1,4 @@
-@model Backend.Models.ProductVariant
+@model Backend.ViewModels.EditProductVariantViewModel
 @{
     ViewData["Title"] = "Edit Product Variant";
 }
@@ -20,6 +20,12 @@
         <label asp-for="SizeId" class="control-label"></label>
         <select asp-for="SizeId" class="form-control" asp-items="ViewBag.SizeId"></select>
         <span asp-validation-for="SizeId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity" class="control-label"></label>
+        <input type="number" asp-for="Quantity" class="form-control"></input>
+        <span asp-validation-for="Quantity" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Save</button>
