@@ -152,12 +152,13 @@ export const specialOffer = [{
   image: bestSellerImg,
   title: 'Best Seller',
   description: 'Fan-Favorite Sneakers, Flats, and Slip-Ons',
-  
+  url: '/newarrival'
 },
   {
    id: 2,
   image: specialOfferImg,
   title: 'Special Offer',
   description: 'Fan-Favorite Sneakers, Flats, and Slip-Ons',
+  url:'/sales'
   }]
 

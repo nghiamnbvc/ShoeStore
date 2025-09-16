@@ -1,7 +1,8 @@
 import { useRef, React } from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import gsap from "gsap";
 
-const SpecialOfferCard = ({ image, title, description, onClick }) => {
+const SpecialOfferCard = ({ image, title, description, linkTo }) => {
   const imageRef = useRef();
   const buttonRef = useRef();
 
@@ -52,18 +53,17 @@ const SpecialOfferCard = ({ image, title, description, onClick }) => {
           ref={buttonRef}
           className="flex justify-center gap-4 mb-6 opacity-0"
         >
-          <button
-            className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 sm:text-xl text-xs font-medium duration-300 font-montserrat"
-            onClick={onClick}
-          >
-            Shop Men
-          </button>
-          <button
-            className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 p-2 sm:text-xl text-xs font-medium duration-300 font-montserrat"
-            onClick={onClick}
-          >
-            Shop Women
-          </button>
+          <Link to={`${linkTo}/men`}>
+            <button className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 sm:text-xl text-xs font-medium duration-300 font-montserrat">
+              Shop Men
+            </button>
+          </Link>
+
+          <Link to={`${linkTo}/women`}>
+            <button className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 p-2 sm:text-xl text-xs font-medium duration-300 font-montserrat">
+              Shop Women
+            </button>
+          </Link>
         </div>
       </div>
 

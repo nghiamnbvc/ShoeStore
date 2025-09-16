@@ -16,6 +16,7 @@ const SpecialOffer = () => {
             image={offer.image}
             title={offer.title}
             description={offer.description}
+            linkTo={offer.url}
           />
         );
       })}
