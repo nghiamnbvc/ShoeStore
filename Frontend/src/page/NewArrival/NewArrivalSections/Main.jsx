@@ -1,27 +1,31 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "../../../components/ProductCard";
+import { useParams, useHistory } from "react-router-dom";
 
 const Main = () => {
   const [newProducts, setNewProducts] = useState([]);
-  const [gender, setGender] = useState("men");
+  const history = useHistory();
+  const { gender } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5235/api/ProductApi/${gender}-new-arrivals`)
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error("Failed to fetch new products");
-        }
-        return res.json();
-      })
-      .then((data) => setNewProducts(data))
-      .catch((error) => console.error("Error:", error));
+    if (gender) {
+      fetch(`http://localhost:5235/api/ProductApi/${gender}-new-arrivals`)
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error("Failed to fetch new products");
+          }
+          return res.json();
+        })
+        .then((data) => setNewProducts(data))
+        .catch((error) => console.error("Error:", error));
+    }
   }, [gender]);
 
   return (
     <section>
       <div className="flex">
         <button
-          onClick={() => setGender("men")}
+          onClick={() => history.push("/newarrival/men")}
           className={`flex-1 flex justify-center items-center text-xl font-montserrat py-2 transition-all duration-300 ${
             gender === "men"
               ? "border-b-2 border-black font-semibold font-montserrat"
@@ -31,7 +35,7 @@ const Main = () => {
           Men
         </button>
         <button
-          onClick={() => setGender("women")}
+          onClick={() => history.push("/newarrival/women")}
           className={`flex-1 flex justify-center items-center text-lg font-montserrat py-2 transition-all duration-300 ${
             gender === "women"
               ? "border-b-2 border-black font-semibold font-montserrat"

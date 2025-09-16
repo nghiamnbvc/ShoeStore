@@ -51,7 +51,7 @@ const Detail = ({ product }) => {
     );
 
     if (!variant) {
-      toast.error("Vui lòng chọn đúng màu và kích thước.");
+      toast.error("Please choose the correct color and size.");
       return;
     }
 
@@ -127,7 +127,7 @@ const Detail = ({ product }) => {
       {/* Color Selection */}
       {uniqueColors.length > 0 && (
         <div className="space-y-2">
-          <h4 className="text-sm font-medium text-gray-700">Màu sắc:</h4>
+          <h4 className="text-sm font-medium text-gray-700">Color:</h4>
           <div className="flex flex-wrap gap-3">
             {uniqueColors.map((color, index) => (
               <button
@@ -154,7 +154,7 @@ const Detail = ({ product }) => {
       {/* Size Selection */}
       {uniqueSizes.length > 0 && (
         <div className="space-y-2">
-          <h4 className="text-sm font-medium text-gray-700">Kích thước:</h4>
+          <h4 className="text-sm font-medium text-gray-700">Size:</h4>
           <div className="flex flex-wrap gap-3">
             {uniqueSizes.map((size, index) => (
               <button

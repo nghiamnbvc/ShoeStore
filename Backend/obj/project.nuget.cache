@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EHVLDjJbi38=",
+  "dgSpecHash": "cJUSJIEhVMI=",
   "success": true,
-  "projectFilePath": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\Backend.csproj",
+  "projectFilePath": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nghia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nghia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

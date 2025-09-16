@@ -1,7 +1,7 @@
 import { useRef, React } from "react";
 import gsap from "gsap";
 
-const SpecialOfferCard = ({ image, title, description }) => {
+const SpecialOfferCard = ({ image, title, description, onClick }) => {
   const imageRef = useRef();
   const buttonRef = useRef();
 
@@ -50,12 +50,18 @@ const SpecialOfferCard = ({ image, title, description }) => {
         </div>
         <div
           ref={buttonRef}
-          className="flex justify-center gap-2 mb-6 opacity-0"
+          className="flex justify-center gap-4 mb-6 opacity-0"
         >
-          <button className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 sm:text-xl text-xs font-medium duration-300 font-montserrat">
+          <button
+            className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 sm:text-xl text-xs font-medium duration-300 font-montserrat"
+            onClick={onClick}
+          >
             Shop Men
           </button>
-          <button className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 p-2 sm:text-xl text-xs font-medium duration-300 font-montserrat">
+          <button
+            className="text-black bg-white hover:bg-black hover:text-white cursor-pointer text-center sm:w-56 w-full sm:p-3 p-2 sm:text-xl text-xs font-medium duration-300 font-montserrat"
+            onClick={onClick}
+          >
             Shop Women
           </button>
         </div>

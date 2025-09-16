@@ -49,13 +49,13 @@ const AppContent = () => {
         <Route path="/women">
           <ProductWomen />
         </Route>
-        <Route path="/sales">
+        <Route path="/sales/:gender">
           <Sales />
         </Route>
         <Route path="/search">
           <Search />
         </Route>
-        <Route path="/newarrival">
+        <Route path="/newarrival/:gender">
           <NewArrival />
         </Route>
         <Route path="/productdetail/:id">

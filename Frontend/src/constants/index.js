@@ -25,8 +25,8 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/men", label: "Men" },
   { href: "/women", label: "Women" },
-  { href: "/sales", label: "Sales" },
-  { href: "/newarrival", label: "New Arrival" },
+  { href: "/sales/men", label: "Sales" },
+  { href: "/newarrival/men", label: "New Arrival" },
 ];
 
 export const shoes = [
@@ -152,6 +152,7 @@ export const specialOffer = [{
   image: bestSellerImg,
   title: 'Best Seller',
   description: 'Fan-Favorite Sneakers, Flats, and Slip-Ons',
+  
 },
   {
    id: 2,

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\Backend.csproj": {}
+    "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\Backend.csproj": {
+    "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\Backend.csproj",
+        "projectUniqueName": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\Backend.csproj",
+        "projectPath": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\nghia\\.nuget\\packages\\",
-        "outputPath": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\backend\\obj\\",
+        "outputPath": "D:\\Nam3-HK3\\LapTrinhWeb-NC_LT\\ShoesStoreMananger\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nghia\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "../../../components/ProductCard";
-import { useLocation } from "react-router-dom";
+import { useLocation, useHistory } from "react-router-dom";
 
 const Main = ({ category }) => {
   const [selectedGender, setSelectedGender] = useState("Men");
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
+  const history = useHistory();
+
   const location = useLocation();
 
   // Đồng bộ selectedGender với URL khi component được render
@@ -84,10 +86,7 @@ const Main = ({ category }) => {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
             {products.map((product) => (
-              <ProductCard
-                key={product.id}
-                {...product}
-              />
+              <ProductCard key={product.id} {...product} />
             ))}
           </div>
         )}
